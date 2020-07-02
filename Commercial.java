@@ -29,7 +29,7 @@ public class Commercial extends Salarie{
 	
 	@Override
 	public void calculSalaire() {
-		System.out.println("Le salaire de "+this.getM_strNom()+" est de "+(this.getM_dSalaire()+((this.m_dChiffreAffaire/100)*this.m_pcCommission)));
+		System.out.println("Le salaire de "+this.getM_strNom()+" le commercial est de "+(this.getM_dSalaire()+((this.m_dChiffreAffaire/100)*this.m_pcCommission)));
 	}
 	
 	@Override
